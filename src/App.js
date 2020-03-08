@@ -11,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <MyBar/>
+      <h1>Hey this my website, I'm current redoing it </h1>
+      <h3>Only my github/linkin logs work ATM </h3>
     </div>
   );
 }
