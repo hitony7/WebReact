@@ -13,6 +13,7 @@ function App() {
       <MyBar/>
       <h1>Hey this my website, I'm current redoing it </h1>
       <h3>Only my github/linkin logs work ATM </h3>
+      <p>last updated Mar-08-2020 </p>
     </div>
   );
 }
