@@ -27,8 +27,8 @@ export class MyBar extends Component {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Github</Nav.Link>
-      <Nav.Link href="#link">Linkedin</Nav.Link>
+      <Nav.Link href="https://github.com/hitony7">Github</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/tony-wong-33713219a/">Linkedin</Nav.Link>
       <Nav.Link href="#link">Projects</Nav.Link>
       <NavDropdown title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>

@@ -11,9 +11,6 @@ function App() {
   return (
     <div className="App">
       <MyBar/>
-      <Greet></Greet>
-      <WClass></WClass>
-      <HelloProp name = "TONY WONG" heroname = "BIG WANG"/>
     </div>
   );
 }

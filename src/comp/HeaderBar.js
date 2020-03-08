@@ -1,5 +1,5 @@
 import React from 'react'
-
+//Example For JSX style
 const HeaderBar = () => {
     return React.createElement(
         'div',
