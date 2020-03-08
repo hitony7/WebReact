@@ -14,7 +14,7 @@ Class componment for my nav bar
 
 
 export class MyBar extends Component {
-
+  //Construct need to bind this nav bar functions to this instance of the bar 
   constructor(props) {
     super(props);
     this.linkndOnClick = this.linkndOnClick.bind(this);
@@ -48,8 +48,6 @@ export class MyBar extends Component {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="https://github.com/hitony7">Github</Nav.Link>
-      <Nav.Link href="https://www.linkedin.com/in/tony-wong-33713219a/">Linkedin</Nav.Link>
       <Nav.Link href="#link">Projects</Nav.Link>
       <NavDropdown title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>
@@ -76,11 +74,10 @@ export class MyBar extends Component {
         className="d-inline-block align-top"
         alt="my face"
         href="https://www.linkedin.com/in/tony-wong-33713219a/"
-      />
+                  />
     </Button>
-    <Button variant="outline-success">Home</Button>
   </Navbar.Collapse>
-</Navbar>
+  </Navbar>
             </div>
         )
     }
