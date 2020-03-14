@@ -2,6 +2,8 @@ import Canvas from 'react-responsive-canvas';
 import React, { Component } from 'react'
 import Screen from './imgs/screen.png'
 import Image from 'react-bootstrap/Image'
+import GoogleFontLoader from 'react-google-font-loader';
+
 
 
 class App extends React.Component {
@@ -75,10 +77,55 @@ draw(){
     };
 
     const introStyle = {
+      
       top: "200px",
       left: "20%",
      // position: "absolute",
-      fontsize: "50vw",
+      fontSize: "5vw",
+      fontSize: "5vh",
+      fontFamily: 'Quantico',
+      margin: "0",
+      padding: "0",
+    }
+
+    const introp1 = {
+      
+      top: "200px",
+      left: "20%",
+     // position: "absolute",
+      fontSize: "3vw",
+      fontSize: "3vh",
+      fontFamily: 'Electrolize',
+      margin: "0",
+      padding: "0",
+      
+
+    }
+    const introp2 = {
+      
+      top: "200px",
+      left: "20%",
+     // position: "absolute",
+      fontSize: "3vw",
+      fontSize: "3vh",
+      fontFamily: 'Electrolize',
+      margin: "0",
+      padding: "0",
+      
+
+    }
+    const introp3 = {
+      
+      top: "200px",
+      left: "20%",
+     // position: "absolute",
+      fontSize: "2.5vw",
+      fontSize: "2.5vh",
+      fontFamily: 'Bubbler One',
+      margin: "0",
+      padding: "0",
+      
+
     }
     const wordbox = {
       position: "absolute",
@@ -91,6 +138,7 @@ draw(){
       top: "21%",
       left: "50%",
       marginLeft: "-34%",
+      overflow: "auto",
 
     }
 
@@ -101,13 +149,34 @@ draw(){
       postion : "absolute",
       top: "500px",
 
+      
+
     }
     return (
+
       <div style= {divStyle}>
+                  <GoogleFontLoader
+                  fonts={[
+                  {
+                    font: 'Electrolize',
+                    weights: [400, '400i'],
+                  },
+                  {
+                    font: 'Quantico',
+                    weights: [400, 700],
+                  },
+                  {
+                    font: 'Bubbler One',
+                    weights: [400, 700],
+                  },
+                ]}
+                subsets={['cyrillic-ext', 'greek']}
+              />
           <div style = {wordbox}>
-            <h1 style = {introStyle}>Hello world </h1>
-            <p>I'm Tony wong 
-            I'm a student programmer at univerity of calgary </p>
+            <h1 style = {introStyle}>Hello world, </h1>
+            <p style = {introp1} >My name is Tony Wong.</p>
+            <p style = {introp2}>I'm a full stack dev and (Dynamic State change here)</p>
+            <p style = {introp3}>Currently a student programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
         </div>
           
         <Image
