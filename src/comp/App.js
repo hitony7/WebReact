@@ -78,52 +78,48 @@ draw(){
 
     const introStyle = {
       
-      top: "200px",
-      left: "20%",
-     // position: "absolute",
-      fontSize: "5vw",
-      fontSize: "5vh",
+      top: "10%",
+      right: "30%",
+      position: "relative",
+      fontSize: "3.5vw",
       fontFamily: 'Quantico',
-      margin: "0",
-      padding: "0",
+      whiteSpace: "normal",
+
     }
 
     const introp1 = {
-      
-      top: "200px",
-      left: "20%",
-     // position: "absolute",
-      fontSize: "3vw",
-      fontSize: "3vh",
+      top: "20%",
+      right: "29%",
+      position: "relative",
+      fontSize: "2vw",
       fontFamily: 'Electrolize',
-      margin: "0",
-      padding: "0",
+      whiteSpace: "normal",
+      marginBottom: "0"
+
       
 
     }
     const introp2 = {
       
-      top: "200px",
-      left: "20%",
-     // position: "absolute",
-      fontSize: "3vw",
-      fontSize: "3vh",
+      top: "19%",
+      right:  "6.5%",
+      position: "relative",
+      fontSize: "2vw",
       fontFamily: 'Electrolize',
-      margin: "0",
-      padding: "0",
-      
+      whiteSpace: "normal",
+      marginTop: "0"
+
 
     }
     const introp3 = {
-      
-      top: "200px",
-      left: "20%",
-     // position: "absolute",
-      fontSize: "2.5vw",
-      fontSize: "2.5vh",
+
+      top: "25%",
+      right: "0%",
+      position: "relative",
+      fontSize: "1.5vw",
       fontFamily: 'Bubbler One',
-      margin: "0",
-      padding: "0",
+      whiteSpace: "normal",
+
       
 
     }
@@ -175,7 +171,7 @@ draw(){
           <div style = {wordbox}>
             <h1 style = {introStyle}>Hello world, </h1>
             <p style = {introp1} >My name is Tony Wong.</p>
-            <p style = {introp2}>I'm a full stack dev and (Dynamic State change here)</p>
+            <p style = {introp2}>I'm a full stack developer and (Dynamic State change here)</p>
             <p style = {introp3}>Currently a student programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
         </div>
           
