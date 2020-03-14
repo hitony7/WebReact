@@ -20,7 +20,7 @@ const texts = [
 
 
 
-class App extends React.Component {
+class TitlePage extends React.Component {
   constructor(props) {
   super(props);
   this.state = {
@@ -227,5 +227,5 @@ draw(){
   }
 }
 
-export default App
+export default TitlePage
 

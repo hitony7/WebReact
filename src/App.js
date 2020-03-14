@@ -7,7 +7,7 @@ import WClass from './comp/WClass'
 import HelloProp from './comp/HelloProp'
 import MyBar from './comp/MyBar'
 import IntroPage from './comp/IntroPage'
-import Canvas from './comp/App'
+import TitlePage from './comp/TitlePage'
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App" postion = "relative" >
       <MyBar/>
-      <Canvas/>
+      <TitlePage/>
       <IntroPage/>
       <div style= {divStyle} >      
           <h1>Hey this my website, I'm currently redoing it </h1>
