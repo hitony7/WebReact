@@ -34,7 +34,7 @@ export class MyBar extends Component {
     render() {
         return (
             <div>
-  <Navbar bg="light" variant="light" expand="lg">
+  <Navbar className="navbar navbar-light"  expand="lg">
   <Navbar.Brand href="#home">
       <img
         src= { Me }
