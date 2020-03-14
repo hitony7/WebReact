@@ -79,22 +79,26 @@ draw(){
     const introStyle = {
       
       top: "10%",
-      right: "30%",
       position: "relative",
       fontSize: "3.5vw",
       fontFamily: 'Quantico',
       whiteSpace: "normal",
+      textAlign: "left",
+      width: "90%",
+      left: "5%"
 
     }
 
     const introp1 = {
       top: "20%",
-      right: "29%",
       position: "relative",
       fontSize: "2vw",
       fontFamily: 'Electrolize',
       whiteSpace: "normal",
-      marginBottom: "0"
+      marginBottom: "0",
+      textAlign: "left",
+      width: "90%",
+      left: "5%"
 
       
 
@@ -102,23 +106,26 @@ draw(){
     const introp2 = {
       
       top: "19%",
-      right:  "6.5%",
       position: "relative",
       fontSize: "2vw",
       fontFamily: 'Electrolize',
       whiteSpace: "normal",
-      marginTop: "0"
-
+      marginTop: "0",
+      textAlign: "left",
+      width: "90%",
+      left: "5%"
 
     }
     const introp3 = {
 
       top: "25%",
-      right: "0%",
       position: "relative",
       fontSize: "1.5vw",
       fontFamily: 'Bubbler One',
       whiteSpace: "normal",
+      textAlign: "left",
+      width: "90%",
+      left: "5%"
 
       
 
@@ -169,10 +176,10 @@ draw(){
                 subsets={['cyrillic-ext', 'greek']}
               />
           <div style = {wordbox}>
-            <h1 style = {introStyle}>Hello world, </h1>
-            <p style = {introp1} >My name is Tony Wong.</p>
-            <p style = {introp2}>I'm a full stack developer and (Dynamic State change here)</p>
-            <p style = {introp3}>Currently a student programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
+            <h1 style = {introStyle}> Hello world, </h1>
+            <p style = {introp1} > My name is Tony Wong.</p>
+            <p style = {introp2}> I'm a full stack developer and (Dynamic State change here)</p>
+            <p style = {introp3}> Currently a programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
         </div>
           
         <Image
