@@ -1,6 +1,7 @@
 import Canvas from 'react-responsive-canvas';
 import React, { Component } from 'react'
 import Screen from './imgs/screen.png'
+import bitHi from './imgs/bitHi'
 import Image from 'react-bootstrap/Image'
 import GoogleFontLoader from 'react-google-font-loader';
 import { TaskTimer } from 'tasktimer';
@@ -210,7 +211,7 @@ draw(){
                 subsets={['cyrillic-ext', 'greek']}
               />
           <div style = {wordbox}>
-            <h1 style = {introStyle}> Hello world, </h1>
+            <h1 style = {introStyle}>  Hello world, 👋 </h1>
             <p style = {introp1} > My name is Tony Wong.</p>
             <p style = {introp2}> I'm a full stack developer and {this.state.currentText} </p>
             <p style = {introp3}> Currently a programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
@@ -221,6 +222,12 @@ draw(){
                       alt="Montoir"
                       ref="image"
                       style = {imageStyle}
+                    />
+                       <Image
+                      src= { bitHi }
+                      alt="bitme"
+                      ref="image"
+                     
                     />
       </div>
     );
