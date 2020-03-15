@@ -49,11 +49,12 @@ export class MyBar extends Component {
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#link">Projects</Nav.Link>
+      <Nav.Link href="#link">Contact Me</Nav.Link>
       <NavDropdown title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">About me</NavDropdown.Item>
         <NavDropdown.Divider/>
-        <NavDropdown.Item href="#action/3.4">Contact me</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">WIP</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Button variant="light" onClick ={ this.gitOnClick } >

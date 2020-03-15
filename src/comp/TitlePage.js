@@ -71,6 +71,7 @@ updateDimensions() {
       height: this.state.heightSet,
       width: "100%",
       backgroundsize: "cover",
+      position: "relative",
     };
 
     const introStyle = {
@@ -147,16 +148,20 @@ updateDimensions() {
     }
 
     const imageStyle = {
+      postion : "relative",
       width : "100%",
       height : "110% ",
       zIndex: "-1",   
+     
 
     }
 
     const imageBitme = {
-      postion : "relative",
+      postion : "absolute",
       zIndex: "3",
-
+      width : "10%",
+      height : "10% ",
+      top : "100px",
     }
     return (
 
@@ -184,20 +189,18 @@ updateDimensions() {
             <p style = {introp2}> I'm a full stack developer and {this.state.currentText} </p>
             <p style = {introp3}> Currently a programmer in my 3rd Year at University of Calgary and looking for internship opportunities.</p>
         </div>
-          
+        
+        
         <Image
                       src= { Screen }
                       alt="Montoir"
                       ref="image"
                       style = {imageStyle}
                     />
-                       <Image
-                      src= { bitHi }
-                      alt="bitme"
-                      ref="image"
-                      style = {imageBitme}
-                    />
       </div>
+
+
+
     );
   }
 }
