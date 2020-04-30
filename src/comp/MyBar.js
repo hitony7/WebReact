@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button'
 import Me from './imgs/me2.png'
 import gitLogo from './imgs/githubLogo.png'
 import linkLogo from './imgs/linkdphoto.png'
+import { Link  } from 'react-router-dom'
 /*
 Class componment for my nav bar
 */
@@ -35,6 +36,7 @@ export class MyBar extends Component {
         return (
             <div>
   <Navbar className="navbar navbar-light"  expand="lg">
+  <Link to="/">
   <Navbar.Brand href="#home">
       <img
         src= { Me }
@@ -44,12 +46,20 @@ export class MyBar extends Component {
         alt="my face"
       />
     </Navbar.Brand>
+    </Link>
+    <Link to="/">
     <Navbar.Brand href="#home">Tony Wong</Navbar.Brand>
+    </Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
+      <Link to="/projects">
       <Nav.Link href="#link">Projects</Nav.Link>
+      </Link>
+      <Link to="/contactme">
       <Nav.Link href="#link">Contact Me</Nav.Link>
+      </Link>
       <NavDropdown title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">About me</NavDropdown.Item>

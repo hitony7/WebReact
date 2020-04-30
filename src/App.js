@@ -10,7 +10,9 @@ import IntroPage from './comp/IntroProject'
 import TitlePage from './comp/TitlePage'
 import bitHi from './comp/imgs/bitHi.png'
 import Container from 'react-bootstrap/Container'
-
+import { BrowserRouter, Route , Switch } from "react-router-dom"
+import  WelcomePage  from "./comp/WelcomePage"
+import  ProjectsPage  from "./comp/ProjectsPage"
 
 function App() {
   const divStyle = {
@@ -20,10 +22,12 @@ function App() {
   return (
 
     <div className="App" postion = "relative" >
-      <MyBar/>
-         <TitlePage/>
-         <IntroPage/>
-
+         <BrowserRouter> 
+          <Switch>
+            <Route path= "/" exact component =  { WelcomePage }/>
+            <Route path= "/projects" component ={ ProjectsPage}/>
+          </Switch>        
+         </BrowserRouter>
       <div style= {divStyle} >      
           <h1>Hey this my website, I'm currently redoing it </h1>
           <h3>Only my github/linkin logo work ATM </h3>
