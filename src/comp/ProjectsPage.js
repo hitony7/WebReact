@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import MyBar from './MyBar'
-
+import PPageCards from './PPageCards'
 class ProjectsPage extends Component {
     render(){
         return <div>
             <MyBar/>
-            Hey my project page
+            <PPageCards/>
              </div>
     }
 }

@@ -17,9 +17,10 @@ import  ProjectsPage  from "./comp/ProjectsPage"
 function App() {
   const divStyle = {
     position: "relative",
-    top: "1000px"
+    //top: "1000px"
   };
   return (
+    
 
     <div className="App" postion = "relative" >
          <BrowserRouter> 
