@@ -42,7 +42,6 @@ export class IntroPage extends Component {
                             Then it will create a youtube playlist from the keywords of the class calendar description, users will be able to rank the videos
                             if they are relevant to the class they are taking.
                             </Card.Text>    
-                            <br/>
                             </Card.Body>
                                 <ListGroup className="list-group-flush">
                                     <ListGroupItem>YouTube API</ListGroupItem>
@@ -68,46 +67,43 @@ export class IntroPage extends Component {
                             This a system that allows user of many types user to interact with journals logging system. 
                             This was for our software engineering course which focus on how to develop software with proper methodology/practices and agile development, which we used SCRUM.
                             </Card.Text>    
-                            <br/>
                             </Card.Body>
                                 <ListGroup className="list-group-flush">
-                                    <ListGroupItem>YouTube API</ListGroupItem>
-                                    <ListGroupItem>HTML, CSS, JQuery and Python</ListGroupItem>
-                                    <ListGroupItem>Database: Firestore</ListGroupItem>
+                                    <ListGroupItem>SCRUM</ListGroupItem>
+                                    <ListGroupItem>Java, Vaadin</ListGroupItem>
+                                    <ListGroupItem>JSON</ListGroupItem>
                                 </ListGroup>
                                 <Card.Body>
-                                    <Card.Link href="https://github.com/justinf34/Hackathon2020">Github Link</Card.Link>
-                                    <Card.Link href="https://calgaryhacks-2020.devpost.com/">Calgaryhacks 2020 Link</Card.Link>
-                                    <Card.Link href="https://devpost.com/software/youtube-playlist-course-compiler-pbeosh">CH Project Link</Card.Link>
+                                    <Card.Link href="https://github.com/hitony7/SENG300-Project">Github Link</Card.Link>
                                 </Card.Body>
                             <Card.Footer>
-                                 <small className="text-muted">Jan 2020</small>
+                                 <small className="text-muted">April 2020</small>
                             </Card.Footer>
                         
                     </Card>
                     <Card>
                         <Card.Img variant="top" src={ErPic} />
                         <Card.Body>
-                            <Card.Title>>Sample project</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                            <Card.Title>Database API For Stadium Management</Card.Title>
+                            <Card.Subtitle>Databases </Card.Subtitle>
+                             <br/>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
-                        </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Cras justo odio</ListGroupItem>
-                            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                            <ListGroupItem>Vestibulum at eros</ListGroupItem>
-                        </ListGroup>
-                        <Card.Body>
-                            <Card.Link href="#">Card Link</Card.Link>
-                            <Card.Link href="#">Another Link</Card.Link>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
+                            The database we built is to address the issue in the management of data in stadiums, ticket sales, maintenance of facilities, etc. 
+                            We created an API that integrates the ticket sale system, item management system, team management system, and other stadium related systems and made it simpler for end users to access related data.
+                            We used Postman to professional document it. 
+                            </Card.Text>    
+                            </Card.Body>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>Database, API</ListGroupItem>
+                                    <ListGroupItem>SQL and Node.js with express</ListGroupItem>
+                                    <ListGroupItem>MSSQL with Microsoft sql server management studio</ListGroupItem>
+                                </ListGroup>
+                                <Card.Body>
+                                    <Card.Link href="https://github.com/hitony7/CPSC471_API">Github Link</Card.Link>
+                                </Card.Body>
+                            <Card.Footer>
+                                 <small className="text-muted">April 2020</small>
+                            </Card.Footer>
                     </Card>
                 </CardGroup>
                 <Button variant="primary" size="lg" block>
