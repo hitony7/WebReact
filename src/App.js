@@ -38,7 +38,7 @@ function App() {
       <div style= {divStyle} >      
           <h1>Hey this my website, I'm currently redoing it </h1>
           <h3>Only my github/linkin logo work ATM </h3>
-          <p>last updated Mar-14-2020 </p>
+          <p>last updated May-05-2020 </p>
       </div>
     </div>
     

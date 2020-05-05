@@ -14,6 +14,7 @@ import ListGroupItem from "react-bootstrap/ListGroupItem"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardDeck from "react-bootstrap/CardDeck"
 import CardGroup from "react-bootstrap/CardGroup"
+import { Link  } from 'react-router-dom'
 
 export class IntroPage extends Component {
 
@@ -110,9 +111,11 @@ export class IntroPage extends Component {
                             </Card.Footer>
                     </Card>
                 </CardGroup>
+                <Link to="/projects">
                 <Button variant="primary" size="lg" block>
                     Click Here to see the full collection.
                 </Button>
+                </Link>
             </div>
 
         )

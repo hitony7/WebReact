@@ -61,7 +61,7 @@ export class MyBar extends Component {
       <Nav.Link href="#link">Contact Me</Nav.Link>
       </Link>
       <NavDropdown title="More" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Blog</NavDropdown.Item>
+        <NavDropdown.Item href="https://medium.com/@tywong11">Blog</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">About me</NavDropdown.Item>
         <NavDropdown.Divider/>
         <NavDropdown.Item href="#action/3.4">WIP</NavDropdown.Item>
