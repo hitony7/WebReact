@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import ErPic from './imgs/visitER.PNG'
 import Col from 'react-bootstrap/Col'
 import ListGroup from "react-bootstrap/ListGroup"
 import ListGroupItem from "react-bootstrap/ListGroupItem"
@@ -14,7 +13,12 @@ import CardGroup from "react-bootstrap/CardGroup"
 import Accordion from 'react-bootstrap/Accordion'
 import Image from 'react-bootstrap/Image'
 import Media from 'react-bootstrap/Media'
-
+// pics
+import ErPic from './imgs/visitER.PNG'
+import YouTube from './imgs/youtube.PNG'
+import Papers from './imgs/demo.gif'
+import API from './imgs/postman.PNG'
+import AutoSort from './imgs/autosort.jpg'
 
 export class PPageCards extends Component {
 
@@ -46,8 +50,8 @@ export class PPageCards extends Component {
                                     width={640}	
                                     height={360}
                                     className="mr-3"
-                                    src={ErPic}
-                                    alt="Generic placeholder"
+                                    src={AutoSort}
+                                    alt="Garbage bins"
                                     />
                                     <Media.Body>
                                     <Card>
@@ -89,8 +93,8 @@ export class PPageCards extends Component {
                                     width={640}	
                                     height={360}
                                     className="mr-3"
-                                    src={ErPic}
-                                    alt="Generic placeholder"
+                                    src={YouTube}
+                                    alt="Youtube Pics"
                                     />
                                     <Media.Body>
                                     <Card>
@@ -141,7 +145,7 @@ export class PPageCards extends Component {
                                     height={360}
                                     className="mr-3"
                                     src={ErPic}
-                                    alt="Generic placeholder"
+                                    alt="visit er homepage"
                                     />
                                     <Media.Body>
                                     <Card>
@@ -198,8 +202,8 @@ export class PPageCards extends Component {
                                     width={640}	
                                     height={360}
                                     className="mr-3"
-                                    src={ErPic}
-                                    alt="Generic placeholder"
+                                    src={Papers}
+                                    alt="SENG LOGIN"
                                     />
                                     <Media.Body>
                                     <Card>
@@ -233,8 +237,8 @@ export class PPageCards extends Component {
                                     width={640}	
                                     height={360}
                                     className="mr-3"
-                                    src={ErPic}
-                                    alt="Generic placeholder"
+                                    src={API}
+                                    alt="postman pic"
                                     />
                                     <Media.Body>
                                     <Card>
@@ -273,7 +277,7 @@ export class PPageCards extends Component {
                         </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="2">
-                        <Card.Body>Hello! I'm another body</Card.Body>
+                        <Card.Body>Hello! I'm another body, work in progress</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     </Accordion>
