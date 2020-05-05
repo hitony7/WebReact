@@ -77,7 +77,7 @@ export class IntroPage extends Component {
                                     <Card.Link href="https://github.com/hitony7/SENG300-Project">Github Link</Card.Link>
                                 </Card.Body>
                             <Card.Footer>
-                                 <small className="text-muted">April 2020</small>
+                                 <small className="text-muted">Jan 2020 - April 2020</small>
                             </Card.Footer>
                         
                     </Card>
@@ -102,7 +102,7 @@ export class IntroPage extends Component {
                                     <Card.Link href="https://github.com/hitony7/CPSC471_API">Github Link</Card.Link>
                                 </Card.Body>
                             <Card.Footer>
-                                 <small className="text-muted">April 2020</small>
+                                 <small className="text-muted">Jan 2020 - April 2020</small>
                             </Card.Footer>
                     </Card>
                 </CardGroup>
