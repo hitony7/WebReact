@@ -39,8 +39,7 @@ export class PPageCards extends Component {
                             Hackathon Projects
                         </Accordion.Toggle>
                         </Card.Header>
-                        <Accordion.Collapse eventKey="0">
-                            
+                        <Accordion.Collapse eventKey="0">     
                         <ul className="list-unstyled" >
                                 <Media as="li"style={{ margin: 30}}>
                                     <img
@@ -51,20 +50,37 @@ export class PPageCards extends Component {
                                     alt="Generic placeholder"
                                     />
                                     <Media.Body>
-                                    <h4>YouTube Playlist Course Compiler</h4>
-                                    <h5>Calgaryhacks 2020</h5>
-                                    
-                                    <p>
-                                    We decided to improve the University experience. 
-                                    Our project grabs the public university calendar and parse the keywords to identify what is important in the course,
-                                    then it use the youtube api get the relevent search requests then it's sends to a website as a collection of playlists for each topic.
+                                    <Card>
+                                    <Card.Body>
+                                            <Card.Title>Auto Garbage Sorter</Card.Title>
+                                            <Card.Subtitle>Theme: Climate and Environment</Card.Subtitle>
+                                            <br/>
+                                            <Card.Subtitle className="mb-2 text-muted">Code the Change Hackathon 2019</Card.Subtitle>
+                                            <Card.Text>
+                                            This project correctly classify the type of garbage from a picture taken from a smartphone. This ensures people don't put their garbage in the wrong bin ;). 
+                                            We developed this application in for the Code the Change Hackathon 2019 sponsored by Benevity and won the People's Choice award.
 
-                                    </p>
-                                    <ul>
-                                        <li>Coffee</li>
-                                        <li>Tea</li>
-                                        <li>Milk</li>
-                                     </ul>
+                                            </Card.Text>    
+                                            <br/>
+                                            <Card.Subtitle>Our Process</Card.Subtitle>
+                                            <br/>
+                                            <Card.Text>
+                                                asdasdafsadfasf
+                                            </Card.Text>
+                                        </Card.Body>
+                                        <ListGroup className="list-group-flush">
+                                            <ListGroupItem>Machine Learning, Keras, Google Colab</ListGroupItem>
+                                            <ListGroupItem>React Native, Flask, Python</ListGroupItem>
+                                            <ListGroupItem>AWS EC2, Docker</ListGroupItem>
+                                        </ListGroup>
+                                        <Card.Body>
+                                            <Card.Link href="https://github.com/JamesPeralta/Auto-Garbage-Sorter">Github Link</Card.Link>
+                                            <Card.Link href="https://www.facebook.com/pg/CodeTheChangeYYC/photos/?tab=album&album_id=157540012299274&__xts__%5B0%5D=68.ARDMqOYU9zy1otIeytMd-qsmGoOZlBBCy3CBDBhG-5WE2tjTqX-aHdeljjL0GKblWb6jZSAiSEK9Z8cOACqutzPrFWgrfN515MU1HgdJPwY_4Obib6p4oL5PnOCw0CmBrcKbxWEOlHumkihM7jr-4o0EEdxuOrBo5QUwkZXn_CogmqNny7ifdtF3zdPSqAfGp8FoI_quGnTtfxU6sklVg4A3P1wTpkydq8IdhqfKqV6idb6J5Ndaxb9v-QSg9-_hx5e-0HaScwV6JNmZLAlXbvqZ1IU9aYyjD7u6zbka0XUGhsz2vi83OmGtGqwugqKB8QAl0yu3xk2RN7cdxtVZ-40EQUFrGUc6NRnLGEXK0d3KbPXZnMGhU7ToVIoTG3oKq3tsJirZeXg06rp1ZlvmYy0H3f8rraP8S25UYzfftXWLvz4WwX70lM8Tv3lKaDQBxxi0UmatWEUSbXDatuz9kn--PwpVJ3Oh43UL2_-xrl725kz1Cq4m1U2iiIR5lKgSaDfgAlMgc5nw4CX74lRYuVqAivEzT_TcBQ&__tn__=-UC-R&ref=page_internal">Facebook Code to Change Link</Card.Link>
+                                        </Card.Body>
+                                        <Card.Footer>
+                                            <small className="text-muted">Nov 2020</small>
+                                        </Card.Footer>
+                                        </Card>
                                     </Media.Body>
                                 </Media>
 
@@ -118,9 +134,9 @@ export class PPageCards extends Component {
                                     </Card>
                                     </Media.Body>
                                 </Media>
-
+                                
                                 <Media as="li" style={{ margin: 30}}>
-                                   <img
+                                    <img
                                     width={640}	
                                     height={360}
                                     className="mr-3"
@@ -130,24 +146,38 @@ export class PPageCards extends Component {
                                     <Media.Body>
                                     <Card>
                                         <Card.Body>
-                                            <Card.Title>YouTube Playlist Course Compiler</Card.Title>
-                                            <Card.Subtitle className="mb-2 text-muted">Calgaryhacks 2020</Card.Subtitle>
+                                            <Card.Title>VisitER</Card.Title>
+                                            <Card.Subtitle>Theme: Child health and wellness</Card.Subtitle>
+                                            <br/>
+                                            <Card.Subtitle className="mb-2 text-muted">Innovation 4 Health 2019 Health Hack </Card.Subtitle>
                                             <Card.Text>
-                                                This card has supporting text below as a natural lead-in to additional
-                                            content.{' '}
+                                            VisitER is an online emergency-room (ER) check-in system. It is specifically developed for parents and caregivers of autistic children, so that when a child needs to visit the ER, their caregiver can initiate the triage process from the comfort of their own home. This is preferable to waiting for hours in the ER, where the chaotic environment may be overstimulating for the child. Once patient and case details have been submitted, the triage staff will assign a wait time, which is then returned to the caregiver, informing them of when they should arrive at the hospital in order to see a physician with minimal waiting.
+                                            </Card.Text>    
+                                            <br/>
+                                            <Card.Subtitle>Our Process</Card.Subtitle>
+                                            <br/>
+                                            <Card.Text>
+                                            First we had to figure out how to get the courses, we know that each university has a class calendar that shows all course that
+                                            are available in the current term. we used beautifulsoup(python) to collect the classes then parse the description. We need to get rid 
+                                            conjunctions and punctuation in the description. 
+                                            Meanwhile we had on person work on the frontend using HTML, CSS, JQuery. 
+                                            Afterwords we used the keywords to call the Youtube api to return the proper videos then we stored the video links, votes and class name in a Database.
+                                            We had a voting system to allow the user to rank the usefulness of a video to determine it's placement, also if it reaches a certain negative vote threshold it will not show.
+
                                             </Card.Text>
                                         </Card.Body>
                                         <ListGroup className="list-group-flush">
-                                            <ListGroupItem>Cras justo odio</ListGroupItem>
-                                            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                                            <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                                            <ListGroupItem>React + Rails</ListGroupItem>
+                                            <ListGroupItem>Postgresql</ListGroupItem>
+                                            <ListGroupItem>Heroku</ListGroupItem>
                                         </ListGroup>
                                         <Card.Body>
-                                            <Card.Link href="#">Github Link</Card.Link>
-                                            <Card.Link href="#">Another Link</Card.Link>
+                                            <Card.Link href="https://github.com/hitony7/WaitTimes">Github Link</Card.Link>
+                                            <Card.Link href="https://www.innovation4health.com/2019-hhc">2019 Health Hack Competition Link</Card.Link>
+                
                                         </Card.Body>
                                         <Card.Footer>
-                                            <small className="text-muted">Last updated 3 mins ago</small>
+                                            <small className="text-muted">Oct 2019 - Nov 2019</small>
                                         </Card.Footer>
                                     </Card>
                                     </Media.Body>
@@ -162,7 +192,78 @@ export class PPageCards extends Component {
                         </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="1">
-                        <Card.Body>Hello! I'm another body</Card.Body>
+                        <ul className="list-unstyled" >
+                                <Media as="li" style={{ margin: 30}}>
+                                    <img
+                                    width={640}	
+                                    height={360}
+                                    className="mr-3"
+                                    src={ErPic}
+                                    alt="Generic placeholder"
+                                    />
+                                    <Media.Body>
+                                    <Card>
+                                    <Card.Body>
+                            <Card.Title>Academic Paper Journal System</Card.Title>
+                            <Card.Subtitle>Intro to Software Engineering </Card.Subtitle>
+                             <br/>
+                            <Card.Text>
+                            This a system that allows user of many types user to interact with journals logging system. 
+                            This was for our software engineering course which focus on how to develop software with proper methodology/practices and agile development, which we used SCRUM.
+                            </Card.Text>    
+                            </Card.Body>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>SCRUM</ListGroupItem>
+                                    <ListGroupItem>Java, Vaadin</ListGroupItem>
+                                    <ListGroupItem>JSON</ListGroupItem>
+                                </ListGroup>
+                                <Card.Body>
+                                    <Card.Link href="https://github.com/hitony7/SENG300-Project">Github Link</Card.Link>
+                                </Card.Body>
+                            <Card.Footer>
+                                 <small className="text-muted">Jan 2020 - April 2020</small>
+                            </Card.Footer>
+                        
+                                    </Card>
+                                    </Media.Body>
+                                </Media>
+
+                                <Media as="li" style={{ margin: 30}}>
+                                   <img
+                                    width={640}	
+                                    height={360}
+                                    className="mr-3"
+                                    src={ErPic}
+                                    alt="Generic placeholder"
+                                    />
+                                    <Media.Body>
+                                    <Card>
+                        <Card.Body>
+                            <Card.Title>Database API For Stadium Management</Card.Title>
+                            <Card.Subtitle>Databases </Card.Subtitle>
+                             <br/>
+                            <Card.Text>
+                            The database we built is to address the issue in the management of data in stadiums, ticket sales, maintenance of facilities, etc. 
+                            We created an API that integrates the ticket sale system, item management system, team management system, and other stadium related systems and made it simpler for end users to access related data.
+                            We used Postman to professional document it. 
+                            </Card.Text>    
+                            </Card.Body>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>Database, API</ListGroupItem>
+                                    <ListGroupItem>SQL and Node.js with express</ListGroupItem>
+                                    <ListGroupItem>MSSQL with Microsoft sql server management studio</ListGroupItem>
+                                </ListGroup>
+                                <Card.Body>
+                                    <Card.Link href="https://github.com/hitony7/CPSC471_API">Github Link</Card.Link>
+                                </Card.Body>
+                            <Card.Footer>
+                                 <small className="text-muted">Jan 2020 - April 2020</small>
+                            </Card.Footer>
+                    </Card>
+                                    </Media.Body>
+                                </Media>
+                                </ul>
+                            
                         </Accordion.Collapse>
                     </Card>
                      <Card>
@@ -176,44 +277,6 @@ export class PPageCards extends Component {
                         </Accordion.Collapse>
                     </Card>
                     </Accordion>
-
-
-                <ListGroup style={{ margin: 30}}>
-                    <ListGroup.Item>adsasd</ListGroup.Item>
-                    <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                    <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-                    <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                     <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-                </ListGroup>
-
-                <CardDeck style={{ margin: 30}}>
-                    <Card>
-                        <Card.Img variant="top" src={ErPic} />
-                        <Card.Body>
-                            <Card.Title>Sample project</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
-                        </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>React</ListGroupItem>
-                            <ListGroupItem>Heroku</ListGroupItem>
-                            <ListGroupItem>JSX</ListGroupItem>
-                        </ListGroup>
-                        <Card.Body>
-                            <Card.Link href="#">Card Link</Card.Link>
-                            <Card.Link href="#">Another Link</Card.Link>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                     
-                    
-                    </Card>
-                    </CardDeck>
-                
             </div>
 
         )
