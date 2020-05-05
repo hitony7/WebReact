@@ -259,6 +259,7 @@ export class PPageCards extends Component {
                                 </ListGroup>
                                 <Card.Body>
                                     <Card.Link href="https://github.com/hitony7/CPSC471_API">Github Link</Card.Link>
+                                    <Card.Link href="https://documenter.getpostman.com/view/11109555/Szf52oX8?version=latest">Postman documentation Link</Card.Link>
                                 </Card.Body>
                             <Card.Footer>
                                  <small className="text-muted">Jan 2020 - April 2020</small>

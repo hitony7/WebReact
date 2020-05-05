@@ -37,7 +37,7 @@ function App() {
          </BrowserRouter>
       <div style= {divStyle} >      
           <h1>Hey this my website, I'm currently redoing it </h1>
-          <h3>Only my github/linkin logo work ATM </h3>
+          <h3>Some function might be missing still ATM </h3>
           <p>last updated May-05-2020 </p>
       </div>
     </div>
