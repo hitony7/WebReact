@@ -5,6 +5,9 @@ import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import ErPic from './imgs/visitER.PNG'
+import YouTube from './imgs/youtube.PNG'
+import Papers from './imgs/demo.gif'
+import API from './imgs/postman.PNG'
 import Col from 'react-bootstrap/Col'
 import ListGroup from "react-bootstrap/ListGroup"
 import ListGroupItem from "react-bootstrap/ListGroupItem"
@@ -30,7 +33,7 @@ export class IntroPage extends Component {
                 <h1 style={{ color:"#FFFAF0", padding:25 }} >Featured Projects</h1>
                 <CardGroup style={{ margin: 30}}>
                     <Card>
-                        <Card.Img variant="top" src={ErPic} />
+                        <Card.Img variant="top" src={YouTube} width={540} height={300}/>
                         <Card.Body>
                             <Card.Title>YouTube Playlist Course Compiler</Card.Title>
                             <Card.Subtitle>Theme: University experience</Card.Subtitle>
@@ -58,7 +61,7 @@ export class IntroPage extends Component {
                             </Card.Footer>
                         </Card>
                         <Card>
-                        <Card.Img variant="top" src={ErPic} />
+                        <Card.Img variant="top" src={Papers} width={540} height={300}/>
                         <Card.Body>
                             <Card.Title>Academic Paper Journal System</Card.Title>
                             <Card.Subtitle>Intro to Software Engineering </Card.Subtitle>
@@ -82,7 +85,7 @@ export class IntroPage extends Component {
                         
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src={ErPic} />
+                        <Card.Img variant="top" src={API} width={540} height={300}/>
                         <Card.Body>
                             <Card.Title>Database API For Stadium Management</Card.Title>
                             <Card.Subtitle>Databases </Card.Subtitle>
