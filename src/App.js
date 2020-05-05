@@ -13,10 +13,15 @@ import Container from 'react-bootstrap/Container'
 import { BrowserRouter, Route , Switch } from "react-router-dom"
 import  WelcomePage  from "./comp/WelcomePage"
 import  ProjectsPage  from "./comp/ProjectsPage"
+import  ContactMePage  from "./comp/ContactMePage"
+
 
 function App() {
   const divStyle = {
     position: "relative",
+    backgroundColor: "#393534",
+    color:"#FFFAF0",
+    height:"100%"
     //top: "1000px"
   };
   return (
@@ -27,6 +32,7 @@ function App() {
           <Switch>
             <Route path= "/" exact component =  { WelcomePage }/>
             <Route path= "/projects" component ={ ProjectsPage}/>
+           <Route path= "/contactme" component ={ ContactMePage}/>
           </Switch>        
          </BrowserRouter>
       <div style= {divStyle} >      
